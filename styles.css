@@ -1,5 +1,7 @@
+
 .nav-link:hover{
     color: #18bc9c;
+    cursor: pointer;
 }
 
 #carouselExampleSlidesOnly {
@@ -9,7 +11,6 @@
     justify-content: center;
     overflow: hidden;
 }
-
 
 .carousel-inner img {
     transform: scale(1) translateY(-100px);
