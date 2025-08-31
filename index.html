@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-primary fixed-top" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-primary fixed-top" data-bs-theme="dark" aria-label="Main navigation">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Chef's Table <img width="25" height="25" src="https://img.icons8.com/officel/16/cook-male.png" alt="cook-male"/></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,7 +53,7 @@
           </div>
         </div>
     </div>
-    <div class="container">
+      <div id="about-us" class="about-us-container container py-5">
         <div class="about-us-title">
             <h2 class="text-center mt-2 mb-4">Conócenos</h2>
         </div>
@@ -98,9 +98,8 @@
             </div>
         </div>
     </div>   
-    
 
-    <div class="visit-us-container">
+    <div id="visit-us" class="visit-us-container container py-5">
         <div class="visit-us-title" >
           <h2 class="text-center">Visítanos</h2>
         </div>
@@ -119,6 +118,7 @@
               <li><strong>Lunes a Viernes:</strong> 10:00 AM - 10:00 PM</li>
               <li><strong>Sábados:</strong> 12:00 PM - 11:00 PM</li>
             </ul>
+
           </div>
       
           <div class="section-item">
@@ -135,10 +135,10 @@
       <footer class="footer">
         <div class="container">
           <p>&copy; 2024 Chef's Table Todos los derechos reservados.</p>
-          <nav>
+          <nav aria-label="Footer navigation">
             <ul>
               <li><a href="#about-us" >Acerca de</a></li>
-              <li><a href="/contact">Contacto</a></li>
+              <li><a href="#visit-us">Contacto</a></li>
               <li><a href="/privacy">Política de Privacidad</a></li>
             </ul>
           </nav>
